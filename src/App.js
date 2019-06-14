@@ -1,8 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import React from "react";
+
+import logo from "./logo.svg";
 
 function App() {
+  throw new Error("koodikummi error");
+
   return (
     <div className="App">
       <header className="App-header">
